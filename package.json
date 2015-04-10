@@ -1,6 +1,6 @@
 {
   "name": "export-methods",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Creates an export object for an array of functions, using the functions' names as keys.",
   "main": "index.js",
   "scripts": {

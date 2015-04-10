@@ -1,5 +1,14 @@
 function exportMethods(fns) {
-  return fns.reduce(addFnToExports, {});
+  var fnArray;
+
+  if (Array.isArray(fns)) {
+    fnArray = fns;
+  }
+  else {
+    fnArray = Array.prototype.slice.call(arguments);
+  }
+
+  return fnArray.reduce(addFnToExports, {});
 }
 
 function addFnToExports(exports, fn) {

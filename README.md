@@ -32,6 +32,10 @@ You can use this module to avoid that unsightly situation like so:
 
     var exportMethods = require('export-methods');
     ...
+    module.exports = exportMethods(getDoc, getTree, getNode);
+
+Or, if the situation favors it:
+
     module.exports = exportMethods([getDoc, getTree, getNode]);
 
 Installation
