@@ -1,0 +1,29 @@
+{
+  "name": "export-methods",
+  "version": "1.0.0",
+  "description": "Creates an export object for an array of functions, using the functions' names as keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/export-methods.git"
+  },
+  "keywords": [
+    "exports",
+    "redundancy",
+    "methods",
+    "functions",
+    "convenience"
+  ],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/export-methods/issues"
+  },
+  "homepage": "https://github.com/jimkang/export-methods",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
