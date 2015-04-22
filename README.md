@@ -38,6 +38,11 @@ Or, if the situation favors it:
 
     module.exports = exportMethods([getDoc, getTree, getNode]);
 
+Caveat
+------
+
+This will not work well on code that is going to be minified. Best to apply it only to Node modules.
+
 Installation
 ------------
 
